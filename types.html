@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="/public/stylesheets/bootstrap.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/public/stylesheets/home.css">
+	<link rel="stylesheet" href="/public/stylesheets/typesPage.css">
+	<link rel="stylesheet" href="/public/stylesheets/animations.css">
+	<title>Pediatric Cancer Awareness</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<img src="/assets/gold-ribbon.png" alt="logo"  width="30" height="25">
+			<a class="navbar-brand" href="/"> Pediatric Cancer Awareness</a>
+			<button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Information
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/information.html">General Info</a></li>
+                <li><a class="dropdown-item active" href="/types.html">Cancer Types</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/latest.html">Latest Research</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Data Science Tools
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/stjude.html">St. Jude Cloud</a></li>
+                <li><a class="dropdown-item" href="/oste.html">Osteosarcoma Explorer</a></li>
+                <li><a class="dropdown-item" href="/ucsc.html">UCSC Treehouse Public Data</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/events.html" tabindex="-1">Get Involved</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+<div class="types_background">
+    <h1 class="text-light fadein" style="font-size: 5.9vmax;">Pediatric Cancer Types</h1>
+    <h4 class="text-light fadein" style="font-size: 2vmax; padding-right: 50vmax;">Learn more about the most common types of pediatric cancer</h4>
+  </div>
+    <!-- <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder">Leukemia</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/blood-cells.png" alt="">
+        </div>
+        <div class="col ">
+          <h2 class=" fw-bold">28% of all childhood cancer</h2>
+          <hr>
+          <h4 class="text-muted">Occurs in blood and bone marrow</h3>
+          <hr>
+          <h4 class="text-muted">Common in children and teenagers of all ages</h3>
+          <hr>
+          <div>
+            <h3 class="fw-bold">Symptoms</h3>
+            <ul>
+              <li>Bone and joint pain</li>
+              <li>Fatigue</li>
+              <li>Weakness</li>
+              <li>Pale skin</li>
+              <li>bleeding/bruising</li>
+              <li>Fever</li>
+              <li>Weight loss</li>
+            </ul>
+          </div>
+          <hr>
+          <div id="leukemiaInfo">
+            <h3 class="fw-bold">More Information</h3>
+                      <p>
+                        The most common types are acute lymphocytic leukemia  (ALL),
+                       which is the most common childhood cancer, and acute myeloid
+                        leukemia (AML) The symptoms of these leukemias include:
+                      </p>
+                      
+                     <p>
+                        Acute leukemias, such as ALL and AML, need to be treated
+                       quickly, often with chemotherapy.
+                      </p>
+                   </div>
+        </div>
+      </div>
+      </div>
+    </section> -->
+        <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Leukemia</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/blood-cells.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">28% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in blood and bone marrow</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Common in children and teenagers of all ages</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><li>Bone and joint pain</li>
+              <li>Fatigue</li>
+              <li>Weakness</li>
+              <li>Pale skin</li>
+              <li>bleeding/bruising</li>
+              <li>Fever</li>
+              <li>Weight loss</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>
+                        The most common types are acute lymphocytic leukemia  (ALL),
+                       which is the most common childhood cancer, and acute myeloid
+                        leukemia (AML) The symptoms of these leukemias include:
+                      </p>
+                      
+                     <p>
+                        Acute leukemias, such as ALL and AML, need to be treated
+                       quickly, often with chemotherapy.
+                      </p></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Brain / CNS</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/brain.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">26% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in brain and spine (central nervous system)</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Common in children and teenagers of all ages</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><li>Headaches</li><li>Nausea</li><li>Vomiting</li><li>Blurred/double vision</li><li>Dizziness</li><li>Seizures</li><li>Trouble walking</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>Spinal cord tumors are very rare, and most CNS tumors are in the brain, especially the lower parts like the cerebellum and brainstem. </p></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Lymphomas</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/lymphoma.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">8% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in lymph nodes and other lymph tissues (tonsils/thymus)</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Most common in young children older than 3yo
+</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><li>Weight loss</li><li>Fever</li><li>Sweats</li><li>Fatigue</li><li>Swollen lymph nodes</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>There are 2 main types, which both affect children and adults. </p><ol><li><b>Hodgkin Lymphoma</b>, which accounts for about 3% of childhood cancers, is more common in adulthood and is rare in children younger than 5 years old. The disease and treatment are very similar in adults and children.</li><li><b> Non-Hodgkin Lymphoma</b>, which accounts for 5% of childhood cancers, is more common in children than Hodgkin lymphoma, but is still rare in especially young children (less than 3 years old). This cancer is more varied between adults and children and grows quicker in children.</li></ol></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Neuroblastoma</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/adrenal-gland.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">6% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in nerve cells from fetus and embryo</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Most common in infants and young children less than 10 years old</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><li>Swelling of the abdomen</li><li>Bone pain</li><li>Fever</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>N/A</p></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Wilms Tumor</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/kidneys.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">5% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in 1 or both kidneys
+</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Most common in 3 or 4 year olds
+</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><li>Swelling or lump in the abdomen</li><li>Fever</li><li>Pain</li><li>Nausea</li><li>Poor appetite</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>Wilms tumor, also known as nephroblastoma, is uncommon in older children and adults.</p></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Rhabdomyosarcoma</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/pain.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">3% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in cells that develop into skeletal muscles
+</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Most common in young children less than 10 years old</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><ul><li>Local pain</li><li>Swelling (a lump)</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>Rhabdomyosarcoma can start anywhere in the body because skeletal muscles are all over our bodies. Some common areas it can start are: </p><ul><li>Head/neck</li><li>Groin</li><li>Abdomen</li><li>Pelvis</li><li>Arms</li><li>Legs</li></ul><p>It is the most common type of soft tissue sarcoma—any tumor that starts in soft tissue like muscle, fat, fibrous tissue, or other supporting tissue—in children.</p></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Bone Cancer</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/bone-cancer.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">3% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in bones</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Most common in older children and teenagers</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><li>Bone Pain (which worsens at night)</li><li>Swelling around the bone</li><li>Vomiting</li><li>Blurred/double vision</li><li>Dizziness</li><li>Seizures</li><li>Trouble walking</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>There are 2 main types of bone cancer in children: </p><ul><li><b>Osteosarcoma</b> is the more common of the 2 types and occurs most in teens. It usually starts in fast-growing bones like the ends of leg and arm bones. </li><li><b>Ewing sarcoma</b> is the less common of the type and occurs in young teens. It often starts in bones in the pelvis, chest wall, or middle of the leg.</li></ul></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="bg-secondary py-5 pageCard">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3 fw-bolder mb-3">Retinoblastoma</h2>
+      <div class="row mt-5">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/types/eye.png" alt="">
+        </div>
+        <div class="col ">
+          <dl class="row">
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 "> Incidence Rate</dt>
+  <dd class="col-sm-9 listDefinition">2% of all childhood cancer</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Tumor Location</dt>
+  <dd class="col-sm-9 listDefinition">Occurs in the retina in the eyes
+</dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 ">Age Group</dt>
+  <dd class="col-sm-9 listDefinition">Most common in young children around 2 years old</dd>
+<!-- Source for symptoms: https://www.mayoclinic.org/diseases-conditions/retinoblastoma/symptoms-causes/syc-20351008 -->
+  <dt class="col-sm-3 fw-bolder listTerm pb-3">Symptoms</dt>
+  <dd class="col-sm-9 listDefinition"><ul><li>White color in eye</li><li>Poor vision</li><li>Eye redness</li><li>Eye swelling</li><li>Eyes appear to be looking in different directions</li></ul></dd>
+
+  <dt class="col-sm-3 fw-bolder listTerm pb-3 bottom-card">More Information</dt>
+  <dd class="col-sm-9 listDefinition">  <p>Retinoblastomas are often found because of discoloration in the pupil. The pupil (the dark spot in the center of the eye) usually looks red under a light. However, in a patient with retinoblastoma, the eye looks white or pink.</p></dd>
+</dl>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <div id="" class="mt-auto bg-primary text-white">
+      <div class=" container">
+        <h2 class="pt-3 text-center fw-bold">Pediatric Cancer Awareness</h2>
+        <hr class="dropdown-divider">
+        <div class="row">
+          <div class="col">
+            <h3>Contributors</h3>
+            <ul class="list-unstyled">
+              <li>Belal Elsiesy</li>
+              <li>David Zaha</li>
+              <li>Ellen Sun</li>
+              <li>Jefferson Chen</li>
+              <li>Tianxin Xie</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Pages</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">Home</a></li>
+              <li><a href="" class="link-light">Information</a></li>
+              <li><a href="" class="link-light">Latest Research</a></li>
+              <li><a href="" class="link-light">Data Science</a></li>
+              <li><a href="" class="link-light">Events</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">PCDC</a></li>
+              <li><a href="" class="link-light" >Cancer.org</a></li>
+              <li><a href="" class="link-light">NIH Trials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  
+    <script src="/public/javascripts/bootstrap.js"></script>
+      <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="/public/javascripts/graphs.js"></script>
+    <script src="/public/javascripts/types.js"></script>
+    <script src="/public/javascripts/animations.js"></script>
+  </body>
+</html>

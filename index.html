@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="/public/stylesheets/bootstrap.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/public/stylesheets/home.css">
+	<link rel="stylesheet" href="/public/stylesheets/animations.css">
+	<title>Pediatric Cancer Awareness</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<img src="/assets/gold-ribbon.png" alt="logo"  width="30" height="25">
+			<a class="navbar-brand" href="/"> Pediatric Cancer Awareness</a>
+			<button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Information
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/information.html">General Info</a></li>
+                <li><a class="dropdown-item" href="/types.html">Cancer Types</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/latest.html">Latest Research</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Data Science Tools
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/stjude.html">St. Jude Cloud</a></li>
+                <li><a class="dropdown-item" href="/oste.html">Osteosarcoma Explorer</a></li>
+                <li><a class="dropdown-item" href="/ucsc.html">UCSC Treehouse Public Data</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/events.html" tabindex="-1">Get Involved</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+     <div class="colorstrip">
+      <h1 id="fadein" style="font-size: 5.9vmax;">Pediatric Cancer</h1>
+      <h4 id="fadein" style="font-size: 2vmax; padding-right: 50vmax;">Where biomedical and data science research intersect to save lives.</h4>
+    </div>
+    
+    <!--statistics section with the icons-->
+    <section class="bg-secondary  pb-5" style="background-image: url(https://www.acco.org/wp-content/themes/acco-new/img/bg-slider.png); background-attachment: fixed; background-size: cover;">
+      <!-- i took out id="ThreeDEffect" cuz it looked weird-->
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: white;">
+        <h2 id="surface-element"class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">A Devastating Disease</h2>
+        <div id="surface-element"class = "row mb-4 mt-4">
+          <div id="surface-element"class="col text-center">
+              
+                <img id="surface-element" class=" img-thumbnail iconResize mt-2 mb-2 mx-auto" src="/assets/skull.png" style="border: none !important;">
+                <p id="surface-element" class = "iconCaption">Cancer is the <b class = "iconEmphasized">2<sup>nd</sup></b> leading cause of death for children</p> 
+              
+          </div>
+          <div class="col text-center">
+              <img id="surface-element" class="img-thumbnail iconResize mt-2 mb-2 mx-auto" src="/assets/worldwide-color.png">
+              <p id="surface-element" class = "iconCaption">Globally, more than <b class = "iconEmphasized">300,000</b> children are diagnosed with cancer each year</p>
+          </div>
+          <div class="col text-center">
+              <img class="img-thumbnail iconResize mt-2 mb-2 mx-auto"style="border: none !important;" src="/assets/broken-heart.png">
+              <p class = "iconCaption"><b class = "iconEmphasized">60%</b> of childhood cancer survivors experience life-threatening conditions in adulthood</p>
+          </div>
+        </div>
+        <div class="row mt-4 mb-4">
+          <div class="col text-center">
+              <img class="img-thumbnail iconResize mt-2 mb-2 mx-auto" src="/assets/sad-baby-face.png" style="border: none !important;">
+              <p class = "iconCaption">Every <b class = "iconEmphasized">3</b> minutes, a child is diagnosed with cancer</p>
+          </div>
+          <div class="col text-center">
+              <img class="img-thumbnail iconResize mt-2 mb-2 mx-auto" src="/assets/tombstone.png" style="border: none !important;">
+              <p class = "iconCaption"><b class = "iconEmphasized">1</b> out of <b class = "iconEmphasized">5</b> children in the US diagnosed with cancer will not survive</p>
+          </div>
+          <div class="col text-center">
+              <img class="img-thumbnail iconResize mt-2 mb-2 mx-auto" src="/assets/ribbon.png" style="border: none !important;">
+              <p class = "iconCaption">Annually, approximately <b class = "iconEmphasized">16,000</b> children are diagnosed with cancer in the United States</p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col text-center">
+             <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;"href="/information.html">Learn More</a>
+          </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-secondary  pb-5" style="background-image: url(https://www.acco.org/wp-content/themes/acco-new/img/bg-slider.png); background-attachment: fixed; background-size: cover;" id="typesSection">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+        <h1 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Most Common Types</h1>
+        <div class="row py-5">
+          <div class="col col-md-6 py-5">
+            <div id="typesPieChart"></div>
+          </div>
+          <div class="col col-md-6" id="cardCol">
+            <div class="card border-warning border-3 mb-3">
+             <div class="card rounded-3" id="typesCard">
+              <div class="card-body" id="currentType">
+                <h2 class="card-title" id="title">Leukemia</h2>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-muted" id="percentage">
+                     28% of all childhood cancer
+                 </li>
+                  <li class="list-group-item p-1" id="location">
+                    Occurs in blood and bone marrow
+                 </li>
+                  <li class="list-group-item p-1" id="ageGroup">
+                    Most common in children of all ages
+                  </li>
+                 <li class="list-group-item">
+                    <div id="cancerInfo" class="overflow-scroll">
+                      <p>
+                        The most common types are acute lymphocytic leukemia  (ALL),
+                       which is the most common childhood cancer, and acute myeloid
+                        leukemia (AML) The symptoms of these leukemias include:
+                      </p>
+                      <ul>
+                        <li>Bone and joint pain</li>
+                        <li>Fatigue</li>
+                        <li>Weakness</li>
+                        <li>Pale skin</li>
+                        <li>bleeding/bruising</li>
+                        <li>Fever</li>
+                        <li>Weight loss</li>
+                      </ul>
+                     <p>
+                        Acute leukemias, such as ALL and AML, need to be treated
+                       quickly, often with chemotherapy.
+                      </p>
+                   </div>
+                  </li>
+                </ul>
+              </div>
+           </div>
+          </div>  
+        </div>
+      </div>
+
+      <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="types.html">More Info</a>
+    </section>
+    
+    <section class="bg-secondary pb-5" style="background-image: url(https://www.acco.org/wp-content/themes/acco-new/img/bg-slider.png); background-attachment: fixed; background-size: cover;">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Pediatric vs. Adult Cancer</h2>
+      <div class="row rows-cols-3 row-cols-lg-3 row align-items-start">
+        <div class="col text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/crowd.png" alt="">
+        </div>
+        <div class="col text-center">
+          <img id="diff-img" class="img-thumbnail iconResize" src="/assets/different.png" alt="">
+        </div>
+         <div class="col bg-success rounded-top text-center">
+          <img id="solution-img" class="img-thumbnail iconResize" style="padding-top: 15px;" src="/assets/idea.png" alt="">
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col text-center">
+          <h2>Rarity</h2>
+        </div>
+        <div class="col text-center">
+          <h2>Differences</h2> 
+        </div>
+          <div class="col text-center bg-success">
+          <h3 class="text-secondary" style="padding-bottom: 15px;">Solution</h3>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col text-center">
+          <p>Due to the rarity of childhood cancers, studies and clinical trials usually have limited cohort sizes. So, finding meaningful results is more difficult.</p>
+        </div>
+        <div class="col text-center">
+          <p>Pediatric cancer displays unique biological characteristics that are different from adult cancers. Thus, they require dedicated research and specialized treatment.</p>
+        </div>
+        <div class="col text-center bg-success rounded-bottom">
+          <p class="text-secondary">To overcome these 2 challenges, research institutions and children's hospitals must collaborate in multi-instituional studies and work together to harmonize their datasets.</p>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <div class="bg-blue mb-0 p-3 border-5 border-top border-bottom border-warning">
+      <h2 class="text-white text-center display-2">Research</h2>
+    </div>
+
+    <section class="bg-secondary py-5" style="background-image: url(/assets/ribbonHands.png); background-attachment: fixed; background-size: cover;">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black;">
+    <h2 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Data Science</h2>
+      <div class="row">
+        <div class="col col-12 col-md-4 text-center">
+          <img id="rarity-img" class="img-thumbnail iconResize" src="/assets/data-science.png" alt="">
+        </div>
+        <div class="col ">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptas repellendus tenetur, facere nisi, iusto repudiandae inventore eos beatae dolorem distinctio. Adipisci sed magnam dolor quidem, vero aut vitae consequuntur. Numquam voluptas quia ipsum inventore cumque blanditiis, porro rem rerum sit pariatur! Deserunt pariatur id quos placeat inventore labore autem delectus obcaecati explicabo doloribus sit facilis repellendus atque unde repudiandae, maxime veritatis iure quidem iste ipsa ullam? Veritatis corrupti ullam animi similique labore. Saepe corporis impedit doloribus porro et suscipit est ea libero deleniti dolor nam magni consectetur iusto doloremque earum eaque tempora repudiandae error, deserunt molestias culpa ab autem commodi dolorum? Doloremque a laudantium ad voluptate asperiores totam error ut aliquam, eius earum voluptatem fuga? Exercitationem ab laborum earum. Illo repellat eum adipisci. Nihil nam tenetur beatae iste pariatur ut error aspernatur voluptates repellendus dolor aut quidem alias, vitae accusamus quae esse voluptatem est. Quod velit voluptatibus deserunt numquam?</p>
+          
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-image: url(/assets/ribbonHands.png); background-attachment: fixed; background-size: cover;">
+      <div class="container p-5  bg-light " style="border-radius: 100px !important; background: black">
+        <h3 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Data Science Tools</h3>
+          <div id="carouselDataIndicators" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselDataIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselDataIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselDataIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselDataIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner border border-3 border-warning" style="border-radius: 30px !important">
+              <div class="carousel-item active">
+                <div class="row bg-light px-5 py-5 mx-5" style="border-radius: 30px !important">
+                  <div class="col col-12 col-md-6 tool">
+                    <img src="/assets/CNV-graph.png" style="max-width: 100%; height: auto;" alt="">
+                    <!-- <div id="container" style=></div> -->
+                  </div>
+                  <div class="col">
+                    <h3>UTSW -  Pediatric Cancer Data Core</h3>
+                    <p>The <a href="https://qbrc.swmed.edu/projects/pcdc-cprit/index.php">Pediatric Cancer Data Core</a>  is a collaborative project between UTSouthwestern Medical Center, Children's Medical Center, other research insitutions, other hospitals, and other oncology groups. The focus of the project is combining and harmonizing pediatric cancer patient data (both clinical and genetic) for use in future research. The data comes from various clinical trials, and has been standardized with a defined and research data model. Along with the patient data, the website features several tools for cohort discovery and data analysis. On the left is an example of a bubble chart showing copy number variation in the genes of pediatric neuroblastoma patients.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row bg-light px-5 py-5 mx-5" style="border-radius: 30px !important border-warning border-3">
+                  <div class="col col-12 col-md-6 tool">
+                    <div id="container2"></div>
+                  </div>
+                  <div class="col">
+                    <h3>PeCan - St. Jude Cloud</h3>
+                    <p>The PeCan platform by St. Jude Cloud is a powerful international index of pediatric cancer data, including cell, protein, and genomics data. The data comes from St. Jude's Children's hospital as well as collaborating institutions from across the globe. The platform features interactive tools to visualize pediatric cancer gene mutations with other factors, such as cancer diagnosis or phenotype. For example, they have cluster maps for RNA data, pie charts for mutations, and graphs of proteins with the number of mutations in each gene.</p>
+                    <button type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" onclick="window.location.href='/stjude.html';">Learn More</button>
+                  </div>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <div class="row bg-light px-5 py-5 mx-5" style="border-radius: 30px !important">
+                  <div class="col col-12 col-md-6 tool">
+                    <img id="cluster-map" src="/assets/UCSC Cluster Map.png" alt="">
+                    <!-- <div id="container3" ></div> -->
+                  </div>
+                  <div class="col">
+                    <h3>UCSC - RNA Profile Cluster Map</h3>
+                    <p>This cluster map from <a href="https://cells.ucsc.edu/?ds=treehouse">UCSC</a> interactively maps cells from various types of cancer based on their RNA profiles. The different colors correspond with different cancer types, and the clusters show similar RNA profiles. Through the use of UMAP and t-SNE, clustering algorithms, the map visualizes the relationships between the large groups of cell samples. </p>
+                  </div>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <div class="row bg-light px-5 py-5 mx-5" style="border-radius: 30px !important">
+                  <div class="col col-12 col-md-6 tool">
+                    <img src="/assets/xena-heatmap.png" alt="" style="max-width: 100%; height: auto;">
+                    <!-- <div id="container4" ></div> -->
+                  </div>
+                  <div class="col">
+                    <h3>UCSC Xena - Genomics Data Heatmaps</h3>
+                    <p>UCSC Xena is a platform that "allows users to explore functional genomic data sets for correlations between genomic and/or phenotypic variables." The website contains data from many datasets for a variety of cancer types, adult and pediatric. On the left is a heatmap illustrating the relationship between the expression of the ERG gene (and its consequent RNA sequence) and the copy number variation in the genes ERG, TMPRSS2, and chromosome 21 among prostate adenocarcinoma patients.  </p>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDataIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDataIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-image: url(/assets/ribbonHands.png); background-attachment: fixed; background-size: cover;">
+        <h3 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Latest Research</h3>
+
+   <div class="slider-container">
+	<div class="slide2 slide-1" style="background-image: url('/assets/book2.webp')" >
+		<div class="content">
+          <h2>Article 1</h2>
+
+			<p>Diagnosis And Management Of Acute Appendicitise</p>
+			    <button type="button"; class="button-inverse2 rounded-pill" style="color: black; border-color: black !important;" onclick="window.location.href='https://www.nature.com/articles/s41588-021-00819-w';">Learn More</button>
+		</div>
+
+	</div>
+	<div class="slide2 slide-2" style="background-image: url('/assets/book3.webp')">
+		<div class="content">
+    <h2>Article 2</h2>
+			<p>A first-generation pediatric cancer dependency map.</p>
+       <button type="button"; class="button-inverse2 rounded-pill" style="color: black; border-color: black !important;" onclick="window.location.href='https://www.nature.com/articles/s41588-021-00819-w';">Learn More</button>
+		</div>
+	</div>
+	<div class="slide2 slide-3" style="background-image: url('/assets/book4.webp')">
+		<div class="content">
+          <h2>Article 3</h2>
+
+			<p>Prospective pan-cancer germline testing using MSK-IMPACT</p>
+      <button type="button"; class="button-inverse2 rounded-pill" style="color: black; border-color: black !important;" onclick="window.location.href='https://www.nature.com/articles/s43018-021-00172-1';">Learn More</button>
+		</div>
+
+	</div>
+	<div class="slide2 slide-4" style="background-image: url('/assets/book5.webp')">
+		<div class="content">
+          <h2>Article 4</h2>
+
+			<p>Patient-derived models recapi- tulate molecular signatures and drug response</p>
+      <button type="button"; class="button-inverse2 rounded-pill" style="color: black; border-color: black !important;" onclick="window.location.href='https://www.nature.com/articles/s41467-021-24168-8';">Learn More</button>
+		</div>
+	</div>
+	<div class="slide2 slide-5" style="background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVzZWFyY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60')">
+		<div class="content">
+			<h2>Article 5</h2>
+			<p>The Antibody Drug Conjugate Is Potently Effective Against Pediatric Cancer Tumor Models</p>
+      <button type="button"; class="button-inverse2 rounded-pill" style="color: black; border-color: black !important;" onclick="window.location.href='https://clincancerres.aacrjournals.org/content/27/10/2938.abstract';">Learn More</button>
+		</div>
+	</div>
+	<div class="slide2 slide-6" style="background-image: url('https://images.unsplash.com/photo-1505232631822-65821c2d91bf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE0fHxyZXNlYXJjaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60')">
+		<div class="content">
+			<h2>Article 6</h2>
+			<p>Patients, caregivers, and clinicians differ in performance status ratings</p>
+      <button type="button"; class="button-inverse2 rounded-pill" style="color: black; border-color: black !important;" onclick="window.location.href='https://acsjournals.onlinelibrary.wiley.com/doi/abs/10.1002/cncr.33740';">Learn More</button>
+		</div>
+	</div>
+	<div class="buttons-container">
+		<button class="arrow left">
+			<i class="fa fa-arrow-left"></i>
+		</button>
+		<button class="arrow right">
+			<i class="fa fa-arrow-right"></i>
+		</button>
+	</div>
+</div>
+	</div>
+    </section>
+    
+    
+    
+    
+    
+    <!-- <section class="py-5 bg-light">
+      <div class="container">
+        <h3 class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Latest Research</h3>
+  <div class="row">
+    <div class="col">
+      
+      <div class="card" style="">
+  <img src="/assets/research-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">New Treatment Discovered</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="">
+  <img src="/assets/research-2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Exciting New Research</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="">
+  <img src="/assets/research-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">New Protein Mechanism Understood</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+      </div>
+    </section> -->
+
+
+
+
+
+  
+
+    <div id="" class="mt-auto bg-primary text-white">
+      <div class=" container">
+        <h2 class="pt-3 text-center fw-bold">Pediatric Cancer Awareness</h2>
+        <hr class="dropdown-divider">
+        <div class="row">
+          <div class="col">
+            <h3>Contributors</h3>
+            <ul class="list-unstyled">
+              <li>Belal Elsiesy</li>
+              <li>David Zaha</li>
+              <li>Ellen Sun</li>
+              <li>Jefferson Chen</li>
+              <li>Tianxin Xie</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Pages</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">Home</a></li>
+              <li><a href="" class="link-light">Information</a></li>
+              <li><a href="" class="link-light">Latest Research</a></li>
+              <li><a href="" class="link-light">Data Science</a></li>
+              <li><a href="" class="link-light">Events</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">PCDC</a></li>
+              <li><a href="" class="link-light" >Cancer.org</a></li>
+              <li><a href="" class="link-light">NIH Trials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  
+    <script src="/public/javascripts/bootstrap.js"></script>
+      <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="/public/javascripts/graphs.js"></script>
+    <script src="/public/javascripts/types.js"></script>
+    <script src="/public/javascripts/animations.js"></script>
+  </body>
+</html>

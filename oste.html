@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="/public/stylesheets/bootstrap.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/public/stylesheets/home.css">
+	<link rel="stylesheet" href="/public/stylesheets/animations.css">
+	<title>Data Science Tools</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<img src="/assets/gold-ribbon.png" alt="logo"  width="30" height="25">
+			<a class="navbar-brand" href="/"> Pediatric Cancer Awareness</a>
+			<button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Information
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/information.html">General Info</a></li>
+                <li><a class="dropdown-item" href="/types.html">Cancer Types</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/latest.html">Latest Research</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Data Science Tools
+              </a>
+              <ul class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/stjude.html">St. Jude Cloud</a></li>
+                <li><a class="dropdown-item active" href="/oste.html">Osteosarcoma Explorer</a></li>
+                <li><a class="dropdown-item" href="/ucsc.html">UCSC Treehouse Public Data</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/events.html" tabindex="-1">Get Involved</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <div class="data_background">
+    <h1 id="fadein" class="text-dark" style="font-size: 5.9vmax;">Data Science Tools</h1>
+    <h4 id="fadein" class="text-dark" style="font-size: 2vmax; padding-right: 50vmax;">Learn more about how you can analyze pediatric cancer data</h4>
+  </div>
+
+  <div class="bg-blue mb-0 p-3 border-5 border-top border-bottom border-warning">
+      <h2 class="text-white text-center display-2">Osteosarcoma Explorer</h2>
+  </div>
+
+  <section class="py-5" style="background-image: url(https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80); background-attachment: fixed; background-size: cover;">
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element"class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">About the Osteosarcoma Explorer</h2>
+      <div id="surface-element" class = "row mb-4 mt-4">
+        <div class="col ms-5">
+          <img class="text-center" style="border: none !important;" src="https://qbrc.swmed.edu/projects/ose/img/OSE_logo_v2.png" width="500" height="auto">
+        </div>
+        <div class="col ">
+          <p style="font-size:2vw">The Osteosarcoma Explorer, created by UT Southwestern, is a database with information from a wide variety of studies involving osteosarcoma paitients. This tool uses user-friendly data analysis tools built inside the website that allow users to view the data themselves.</p>
+          <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://qbrc.swmed.edu/projects/ose/index.php">Visit the Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Survival Analysis (Clinical)</h2>
+      <div id="carouselDataIndicators" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselDataIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselDataIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner border border-3 border-warning" style="border-radius: 30px !important">
+              <div class="carousel-item active">
+                <div class = "row mb-4 mt-4">
+                  <div class="col ms-5">
+                    <img class="text-center" style="border: none !important;" src="/assets/s1.PNG" width="400" height="auto">
+                  </div>
+                  <div class="col ">
+                    <p style="font-size:2vw">This tool analyses the survival of paitients based on gender, data contributor, and ethnicity.</p>
+                    <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://qbrc.swmed.edu/projects/ose/multi_group_survival.php">Try it!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class = "row mb-4 mt-4">
+                    <h3 class="text-center">Tutorial</h3>
+                  </div>
+                </div>
+                <div class="row mb-4 mt-4">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDataIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDataIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Survival Analysis (Expresssion)</h2>
+      <div id="carouselDataIndicatorsG" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselDataIndicatorsG" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselDataIndicatorsG" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner border border-3 border-warning" style="border-radius: 30px !important">
+              <div class="carousel-item active">
+                <div class = "row mb-4 mt-4">
+                  <div class="col ms-5">
+                    <img class="text-center" style="border: none !important;" src="/assets/s2.PNG" width="400" height="auto">
+                  </div>
+                  <div class="col ">
+                    <p style="font-size:2vw">This tool analyses how the survival of paitients is correlated to a certain type of gene that the user can choose.</p>
+                    <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://qbrc.swmed.edu/projects/ose/expression_survival.php">Try it!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class = "row mb-4 mt-4">
+                    <h3 class="text-center">Tutorial</h3>
+                  </div>
+                </div>
+                <div class="row mb-4 mt-4">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDataIndicatorsG" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDataIndicatorsG" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Survival Analysis (HER2 Protein Expression)</h2>
+      <div id="carouselDataIndicatorsV" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselDataIndicatorsV" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselDataIndicatorsV" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner border border-3 border-warning" style="border-radius: 30px !important">
+              <div class="carousel-item active">
+                <div class = "row mb-4 mt-4">
+                  <div class="col ms-5">
+                    <img class="text-center" style="border: none !important;" src="/assets/s3.PNG" width="400" height="auto">
+                  </div>
+                  <div class="col ">
+                    <p style="font-size:2vw">This tool analyses survival and its correlation to the prescense of the HER2 protein in the paitient. Users may choose to analyze overall survival or event-free survival.</p>
+                    <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://qbrc.swmed.edu/projects/ose/her2_survival.php">Try it!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class = "row mb-4 mt-4">
+                    <h3 class="text-center">Tutorial</h3>
+                  </div>
+                </div>
+                <div class="row mb-4 mt-4">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDataIndicatorsV" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDataIndicatorsV" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Survival Analysis (CNV)</h2>
+      <div id="carouselDataIndicators4" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselDataIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselDataIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner border border-3 border-warning" style="border-radius: 30px !important">
+              <div class="carousel-item active">
+                <div class = "row mb-4 mt-4">
+                  <div class="col ms-5">
+                    <img class="text-center" style="border: none !important;" src="/assets/s4.PNG" width="400" height="auto">
+                  </div>
+                  <div class="col ">
+                    <p style="font-size:2vw">This tool analyses the copy number variations (CNVs), or the loss or gain of DNA segments in paitients and its correlation to a certain gene. Users can select which gene to analyze.</p>
+                    <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://qbrc.swmed.edu/projects/ose/cnv_survival.php">Try it!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class = "row mb-4 mt-4">
+                    <h3 class="text-center">Tutorial</h3>
+                  </div>
+                </div>
+                <div class="row mb-4 mt-4">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDataIndicators4" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDataIndicators4" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Survival Analysis (ctDNA)</h2>
+      <div id="carouselDataIndicators5" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselDataIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselDataIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner border border-3 border-warning" style="border-radius: 30px !important">
+              <div class="carousel-item active">
+                <div class = "row mb-4 mt-4">
+                  <div class="col ms-5">
+                    <img class="text-center" style="border: none !important;" src="/assets/s5.PNG" width="400" height="auto">
+                  </div>
+                  <div class="col ">
+                    <p style="font-size:2vw">This tool analyses survival and how it correlates to the prescence of ctDNA in the paitient's bloodstream. Users may choose to analyze overall survival or event-free survival.</p>
+                    <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://qbrc.swmed.edu/projects/ose/ctDNA_survival.php">Try it!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class = "row mb-4 mt-4">
+                    <h3 class="text-center">Tutorial</h3>
+                  </div>
+                </div>
+                <div class="row mb-4 mt-4">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDataIndicators5" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDataIndicators5" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+    </div>
+
+  </section>
+
+  <div id="" class="mt-auto bg-primary text-white">
+      <div class=" container">
+        <h2 class="pt-3 text-center fw-bold">Pediatric Cancer Awareness</h2>
+        <hr class="dropdown-divider">
+        <div class="row">
+          <div class="col">
+            <h3>Contributors</h3>
+            <ul class="list-unstyled">
+              <li>Belal Elsiesy</li>
+              <li>David Zaha</li>
+              <li>Ellen Sun</li>
+              <li>Jefferson Chen</li>
+              <li>Tianxin Xie</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Pages</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">Home</a></li>
+              <li><a href="" class="link-light">Information</a></li>
+              <li><a href="" class="link-light">Latest Research</a></li>
+              <li><a href="" class="link-light">Data Science</a></li>
+              <li><a href="" class="link-light">Events</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">PCDC</a></li>
+              <li><a href="" class="link-light" >Cancer.org</a></li>
+              <li><a href="" class="link-light">NIH Trials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  
+    <script src="/public/javascripts/bootstrap.js"></script>
+      <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="/public/javascripts/graphs.js"></script>
+    <script src="/public/javascripts/types.js"></script>
+    <script src="/public/javascripts/animations.js"></script>
+    
+</body>
+</html>

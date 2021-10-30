@@ -1,0 +1,26 @@
+/* #fadein {
+  animation-duration: 4s;
+  animation-name: fadein;
+  animation-play-state: paused;
+} */
+
+@keyframes fadein {
+  from {
+    opacity: 0%;
+   
+    
+  }
+  to {
+    opacity: 100%;
+    
+
+  }
+}
+#ThreeDEffect {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+
+}
+#surface-elements {
+  transition: all 0. ease-out;
+}
+

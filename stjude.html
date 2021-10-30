@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="/public/stylesheets/bootstrap.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/public/stylesheets/home.css">
+	<link rel="stylesheet" href="/public/stylesheets/animations.css">
+	<title>Data Science Tools</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<img src="/assets/gold-ribbon.png" alt="logo"  width="30" height="25">
+			<a class="navbar-brand" href="/"> Pediatric Cancer Awareness</a>
+			<button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Information
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/information.html">General Info</a></li>
+                <li><a class="dropdown-item" href="/types.html">Cancer Types</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/latest.html">Latest Research</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Data Science Tools
+              </a>
+              <ul class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item active" href="/stjude.html">St. Jude Cloud</a></li>
+                <li><a class="dropdown-item" href="/oste.html">Osteosarcoma Explorer</a></li>
+                <li><a class="dropdown-item" href="/ucsc.html">UCSC Treehouse Public Data</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/events.html" tabindex="-1">Get Involved</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <div class="data_background">
+    <h1 id="fadein" class="text-dark" style="font-size: 5.9vmax;">Data Science Tools</h1>
+    <h4 id="fadein" class="text-dark" style="font-size: 2vmax; padding-right: 50vmax;">Learn more about how you can analyze pediatric cancer data</h4>
+  </div>
+
+  <div class="bg-blue mb-0 p-3 border-5 border-top border-bottom border-warning">
+      <h2 class="text-white text-center display-2">St. Jude Cloud</h2>
+  </div>
+
+  <section class="py-5" style="background-image: url(https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80); background-attachment: fixed; background-size: cover;">
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element"class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">About St. Jude</h2>
+      <div id="surface-element" class = "row mb-4 mt-4">
+        <div class="col ms-5">
+          <img class="text-center" style="border: none !important;" src="/assets/jude.jpg">
+        </div>
+        <div class="col ">
+          <p style="font-size:2vw">The St. Jude PeCan Cloud provides various visualizations of pediatric cancer mutations. It pulls from multiple data sources from projects conducted at St. Jude and its collaborators.</p>
+          <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://pecan.stjude.cloud/">Visit the Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Protein Paint</h2>
+        <div class = "row m-4">
+          <div class="col ms-5">
+            <img class="text-center" style="border: none !important;" src="/assets/proteinpaint.PNG" width="400" height="auto">
+          </div>
+          <div class="col ">
+            <p style="font-size:2vw">ProteinPaint is a visualization tool that uses various graphs, charts, and apps that the user can adjust to explore various genomes and mutations that affect pediatric cancer.</p>
+            <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://proteinpaint.stjude.org/">Try it!</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Genome Paint</h2>
+        <div class = "row m-4">
+          <div class="col ms-5">
+            <img class="text-center" style="border: none !important;" src="/assets/genepaint.PNG" width="400" height="auto">
+          </div>
+          <div class="col ">
+            <p style="font-size:2vw">GenomePaint is a large tool included inside ProteinPaint. Users can utilize it to analyze various pediatric tumor mutations. It also allows users to insert their own datasets for analysis.</p>
+            <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://genomepaint.stjude.cloud/">Try it!</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="container p-5 mb-5 bg-light " style="border-radius: 100px !important; background: black">
+      <h2 id="surface-element" class="display-2 text-center py-5 bg-primary text-white rounded-pill mb-3">Visualization Community</h2>
+        <div class = "row m-4">
+          <div class="col ms-5">
+            <img class="text-center" style="border: none !important;" src="/assets/vis.PNG" width="500" height="auto">
+          </div>
+          <div class="col ">
+            <p style="font-size:2vw">St. Jude's Visualization Community is database containing pre-made visualizations from various sources. Users may choose to see ProteinPaint, GenomePaint, SJCharts, and Clinical Dictionary Browsers as visualization tools.</p>
+            <a type="button"; class="button-inverse rounded-pill" style="color: black; border-color: black !important;" href="https://viz.stjude.cloud/visualizations">Try it!</a>
+          </div>
+        </div>
+    </div>
+
+  </section>
+
+  <div id="" class="mt-auto bg-primary text-white">
+      <div class=" container">
+        <h2 class="pt-3 text-center fw-bold">Pediatric Cancer Awareness</h2>
+        <hr class="dropdown-divider">
+        <div class="row">
+          <div class="col">
+            <h3>Contributors</h3>
+            <ul class="list-unstyled">
+              <li>Belal Elsiesy</li>
+              <li>David Zaha</li>
+              <li>Ellen Sun</li>
+              <li>Jefferson Chen</li>
+              <li>Tianxin Xie</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Pages</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">Home</a></li>
+              <li><a href="" class="link-light">Information</a></li>
+              <li><a href="" class="link-light">Latest Research</a></li>
+              <li><a href="" class="link-light">Data Science</a></li>
+              <li><a href="" class="link-light">Events</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="" class="link-light">PCDC</a></li>
+              <li><a href="" class="link-light" >Cancer.org</a></li>
+              <li><a href="" class="link-light">NIH Trials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  
+    <script src="/public/javascripts/bootstrap.js"></script>
+      <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="/public/javascripts/graphs.js"></script>
+    <script src="/public/javascripts/types.js"></script>
+    <script src="/public/javascripts/animations.js"></script>
+    
+</body>
+</html>

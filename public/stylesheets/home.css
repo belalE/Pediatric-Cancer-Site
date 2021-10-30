@@ -1,0 +1,346 @@
+#rarity-img, #challenge-img, #solution-img {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+#rarity-img2, #challenge-img2, #solution-img2 {
+    height: 400px !important;
+    width: 400px !important;
+}
+/* Types Section */
+#typesCard, #cardCol {
+  height: 80%;
+}
+#typesSection {
+  height: 80%;
+}
+
+#cancerInfo {
+  height: 300px;
+}
+
+#cluster-map {
+  max-width: 100%;
+  max-height: 100%
+}
+
+
+
+/* #location {
+  height: 3.6em;
+  line-height: 1.8em;
+}
+#ageGroup {
+  height: 5.4em;
+  line-height: 1.8em;
+} */
+
+/* Header Strip  */
+
+.colorstrip{
+    
+    color: gainsboro;
+    text-align: left;
+    
+    padding-top: 15vmax;
+    padding-bottom: 20vmax;
+    padding-left: 5vmax;
+    
+    background-image: url(https://www.acco.org/wp-content/themes/acco-new/img/bg-slider.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.colorstrip2{
+    
+    color: bs-blue;
+    text-align: left;
+    
+    padding-top: 15vmax;
+    padding-bottom: 20vmax;
+    padding-left: 5vmax;
+    
+    background-image: url(https://images.unsplash.com/photo-1505226541577-484b5ee2173a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); background-attachment: fixed; background-size: cover);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.colorstrip3{
+    
+    color: bs-blue;
+    text-align: left;
+    
+    padding-top: 15vmax;
+    padding-bottom: 20vmax;
+    padding-left: 5vmax;
+    
+    background-image: url(https://www.cidrap.umn.edu/sites/default/files/public/styles/ss_media_popup/public/media/article/mother_holding_child_hand_hosp.jpg?itok=nLuGHQp9); background-attachment: fixed; background-size: cover);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.button{
+    background-color: transparent;
+    font-size: 2vmax;
+    padding: 1vmax 2vmax;
+    border: 2px solid white;
+    color: gainsboro;
+    border-radius: 20px;
+    
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    font-size: 2vmax;
+    padding: 1vmax 2vmax;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+.button-inverse{
+    background-color: transparent;
+    font-size: 2vmax;
+    padding: 1vmax 2vmax;
+    border: 2px solid white;
+    color: gainsboro;
+    border-radius: 20px;
+    
+}
+.button-inverse2{
+    background-color: transparent;
+    font-size: 1vmax;
+    padding: 1vmax 1vmax;
+    border: 2px solid white;
+    color: gainsboro;
+    border-radius: 10px;
+    
+}
+.button-inverse:hover{
+    background-color: black !important;
+    color: white !important;
+    font-size: 2vmax;
+    padding: 1vmax 2vmax;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+img.iconResize {
+  width: 175px;
+  height:auto;
+  background-color: transparent;
+  border: none;
+}
+.iconCaption {
+  font-size: 1.5vmax;
+}
+.iconEmphasized {
+  font-size: 3vmax;
+  color:rgb(212, 175, 55);
+}
+.hidden {
+  color: transparent;
+}
+.data_background{
+    
+    color: gainsboro;
+    text-align: left;
+    
+    padding-top: 15vmax;
+    padding-bottom: 20vmax;
+    padding-left: 5vmax;
+    
+    background-image: url(https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ 
+// 3D .slideshow
+ /*@import url(https://fonts.googleapis.com/css?family=Anaheim);
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+	box-sizing: border-box;
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+html,
+body{
+	min-height: 100%;
+}
+
+.container10{
+	margin: 4% auto;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	perspective: 1000px;
+}
+#carousel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 60s infinite linear;
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+	width: 360px;
+	height: 190px;
+	left: 10px;
+	top: 120px;
+	overflow: hidden;
+}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(500px);}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(500px);}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(500px);}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(500px);}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(500px);}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(500px);}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(500px);}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(500px);}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(500px);}
+
+#carousel figure img, #carousel figure div img{
+	max-width:100%;
+  max-height:90%;
+  object-fit: fill;
+	cursor: pointer;
+}
+
+#carousel figure img:hover{
+  transform: scale(1.2,1.2);
+}
+
+figcaption {
+  max-width: 70%;
+  background-color: #002752;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+} */
+ @import url("https://fonts.googleapis.com/css?family=Tajawal");
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+.slider-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+	width: 100vw;
+	perspective: 1000px;
+	position: relative;
+	transform-style: preserve-3d;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+.slide2 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	width: 20%;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(20% - 20px);
+	z-index: 1000;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+
+.slide2 .content {
+	background-color: #fff;
+	padding: 10px 10px;
+	text-align: center;
+	margin-top: 200px;
+	height: 200px;
+}
+
+.slide2.slide-1 {
+	transform-origin: right;
+	transform: scale(0.95) rotateY(-20deg);
+	left: 1.5% !important;
+	z-index: 1;
+	opacity: 1;
+}
+
+.slide2.slide-2 {
+	transform-origin: right;
+	transform: rotateY(-10deg);
+	left: 20% !important;
+	z-index: 2;
+	opacity: 1;
+}
+
+.slide2.slide-3 {
+	left: 40% !important;
+	z-index: 2;
+	opacity: 1;
+}
+
+.slide2.slide-4 {
+	transform-origin: left;
+	transform: rotateY(10deg);
+	left: 60% !important;
+	z-index: 2;
+	opacity: 1;
+}
+
+.slide2.slide-5 {
+	transform-origin: left;
+	transform: scale(0.95) rotateY(20deg);
+	margin-left: 0;
+	left: 78.5% !important;
+	z-index: 1;
+	opacity: 1;
+}
+
+
+img.circle {
+	object-fit: cover;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	transform: translateY(calc(-50% - 10px));
+}
+
+.buttons-container {
+	position: absolute;
+	bottom: 0;
+}
+
+.arrow {
+	background: transparent;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	cursor: pointer;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	margin: 30px 20px 0;
+} */
+
+
